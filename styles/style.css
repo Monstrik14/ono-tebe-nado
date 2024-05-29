@@ -198,7 +198,7 @@
 
 .cards-list-item {
   padding-top: 25px;
-  padding-left: 17px;
+  padding-left: 25px;
   flex-grow: 1;
   width: 334px;
   min-height: 563px;
@@ -287,49 +287,69 @@
 }
 
 .about {
-  display: grid;
-  grid-template-columns: repeat(2 1fr);
+  padding-top: 182px;
   width: 1052px;
-
-}
-
-.about__logo {
-  background-color: black;
-  border-radius: 50%;
-
-}
-
-.about__logo-image {
-  position: relative;
-  width: 240px;
-  min-height: 240px;
-
+  padding-left: 71px;
 }
 
 .about__column {
+  display: grid;
+  grid-template-columns: 2 1fr;
+  justify-content: center;
+  align-items: center;
+}
 
+.about__logo {
+  padding-left: 45px;
+  display: flex;
+  width: 240px;
+  background-color: black;
+  border-radius: 100%;
+  width: 240px;
+  height: 240px;
+}
+
+.about__logo-image {
+  width: 148px;
+  min-height: 114px;
 }
 
 .about__title {
+  padding-top: 5.5px;
   font-size: 40px;
   text-transform: uppercase;
   font-weight: 700;
-
+  padding-left: 72px;
 }
 
-.about__text {
-  display: flex;
-  flex-direction: column;
+.about__text-first {
+  padding-left: 72px;
+  padding-top: 6.5px;
   font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+.about__text-second {
+  margin-top: 24.5px;
+  padding-left: 72px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  grid-column-start: 2;
+  grid-row-start: 4;
 }
 
 .footer {
-  padding-top: 425px;
+  padding-top: 162px;
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   margin: 0 auto;
   width: 1000px;
+  min-height: 72px;
 }
 
 .footer__menu {
@@ -339,12 +359,13 @@
 
 .footer__menu-list {
   list-style: none;
-  width: 153px;
+  width: 154px;
   text-align: center;
 }
 
 .footer__menu-item {
   font-size: 18px;
+  text-underline-offset: 3px;
 }
 
 .footer__menu-item-link {
@@ -356,24 +377,21 @@
 }
 
 .footer__address {
+  display: block;
   width: 240px;
   text-underline-offset: 3px;
-  display: block;
-  max-width: 240px;
-  font-family: Raleway;
   font-size: 18px;
   font-weight: 400;
   line-height: 24.3px;
   font-style: normal;
-  line-height: 24.3px;
-  text-align: left;
   letter-spacing: 0.01em;
 }
 
 .footer__social-list {
+  margin-bottom: 12px;
   display: flex;
   justify-content: space-between;
-  padding-left: 187px;
+  padding-left: 184px;
 }
 
 .footer__social-list-item {
