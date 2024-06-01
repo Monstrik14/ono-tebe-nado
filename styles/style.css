@@ -21,7 +21,6 @@
   font-size: 18px;
   line-height: 22px;
   font-weight: 400;
-  line-height: -1px;
   letter-spacing: 0.011em;
 }
 
@@ -55,13 +54,11 @@
   text-underline-offset: 3.5px;
   display: block;
   width: 250px;
-  font-family: Raleway;
   font-size: 18px;
   font-weight: 400;
   line-height: 24.3px;
   font-style: normal;
   margin-left: 186.3px;
-  line-height: 24.3px;
   text-align: left;
   letter-spacing: 0.005em;
 }
@@ -299,7 +296,6 @@
   width: 240px;
   background-color: black;
   border-radius: 100%;
-  width: 240px;
   height: 240px;
 }
 
