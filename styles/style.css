@@ -157,7 +157,7 @@
 .lots {
   display: flex;
   flex-direction: row;
-  margin-left: 25px;
+  margin: 0 auto;
   max-width: 1052px;
 }
 
