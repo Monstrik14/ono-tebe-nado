@@ -315,11 +315,11 @@
 }
 
 .footer {
-  padding-top: 150px;
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: start;
   margin: 0 auto;
+  padding: 150px 0 100px;
   width: 1000px;
   min-height: 72px;
 }
